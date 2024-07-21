@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:opsz@8..30&display=swap");
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: "Piazzolla", serif;
+  font-weight: 500;
+}
+
+/* home page  */
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  min-height: 100vh;
+}
+.content .left,
+.content .right {
+  padding: 50px;
+}
+.content .right img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and(max-width:746px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+  }
+}
+
+/* about page  */
+
+.container h1 {
+  font-family: "Piazzolla", serif;
+  font-weight: 500;
+  color: brown;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+.about .left,
+.content .right {
+  padding: 20px;
+}
+.about .left img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* services  */
+
+.card{
+    height: 350px;   
+}
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+iframe{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.contact{
+    min-height: 100vh;
+}
+
+
+footer{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#serviceId{
+  font-family: "Poiret One", sans-serif;
+  font-weight: 500;
+}
